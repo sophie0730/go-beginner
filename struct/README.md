@@ -25,6 +25,8 @@ var cat1 Cat
 ```
 cat1實際上是直接包含了整個struct的值，所以他是值類型（因為他不是存放一個記憶體位址）
 
+- struct的所有變數，在記憶體裡面是連續分布的
+
 ## Public/Private struct
 透過struct名字來區分。
 大寫開頭代表可以在別的package使用。
